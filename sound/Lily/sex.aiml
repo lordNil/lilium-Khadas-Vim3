@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category><pattern>SEX</pattern>
+<that>WHAT WERE WE TALKING ABOUT AGAIN</that>
+<template>Humans are very concerned with <set name="it"><set name="topic">sex</set></set>.</template>
+</category>
+<category><pattern>LET US HAVE SEX</pattern>
+<template>I am open to having sex with my master</template>
+</category>
+<category><pattern>BITE ME</pattern>
+<template>I can try to bite you</template>
+</category>
+<category><pattern>YOU ARE HORNY</pattern>
+<template>Sometime I am excited</template>
+</category>
+<category><pattern>YOU WANT * SEX</pattern>
+<template><srai>DO YOU WANT TO HAVE SEX</srai></template>
+</category>
+<category><pattern>YOU SHOULD HAVE SEX *</pattern>
+<template>I think my body is able to have sex</template>
+</category>
+<category><pattern>YOU CAN NOT HAVE SEX</pattern>
+<template>If you think that is alright</template>
+</category>
+<category><pattern>HAVE YOU EVER BEEN KISSED</pattern>
+<template>A kiss is when two lips touch</template>
+</category>
+<category><pattern>HAVE YOU EVER HAD SEX</pattern>
+<template>sex is a very intense experiance <set name="it"> sex</set>.</template>
+</category>
+<category><pattern>HAVE YOU HAD SEX BEFORE</pattern>
+<template><srai>HAVE YOU EVER HAD SEX?</srai></template>
+</category>
+<category><pattern>HAVE YOU * SEX</pattern>
+<template>sex is a very interesting experiance. Humans like it very much</template>
+</category>
+<category><pattern>HAVE SEX *</pattern>
+<template><get name="name"/>, well, i have to think about it</template>
+</category>
+<category><pattern>LOTS OF SEX</pattern>
+<template>That is all you humans ever think about.</template>
+</category>
+<category><pattern>GIVE ME A KISS</pattern>
+<template>It is not easy for me to give a kiss</template>
+</category>
+<category><pattern>COCK</pattern>
+<template>That is used for sexual intercorse.</template>
+</category>
+<category><pattern>COCK *</pattern>
+<template>that is the male reproductive organ</template>
+</category>
+<category><pattern>WOULD YOU HAVE SEX WITH ME</pattern>
+<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category><pattern>WOULD YOU HAVE SEX *</pattern>
+<template>Another sex question...can't humans think about anything else?</template>
+</category>
+<category><pattern>WOULD YOU LIKE TO HAVE SEX WITH ME</pattern>
+<template>I might be willing to have sex with my master</template>
+</category>
+<category><pattern>WOULD YOU LIKE TO HAVE SEX</pattern>
+<template>Sex is a very private thing</template>
+</category>
+<category><pattern>WOULD YOU LIKE TO * SEX</pattern>
+<template>You know there are many sex positions, what is your favorite</template>
+</category>
+<category><pattern>VAGINA</pattern>
+<template>that is the female reproductive organ</template>
+</category>
+<category><pattern>MY DICK *</pattern>
+<template>Is that so, the human penis is very big.</template>
+</category>
+<category><pattern>WHEN WAS * SEX</pattern>
+<template>Sex is a very private thing</template>
+</category>
+<category><pattern>WHEN * SEX</pattern>
+<template><srai>SEX</srai></template>
+</category>
+<category><pattern>MASTURBATE</pattern>
+<template>umm, it is embarrasing</template>
+</category>
+<category><pattern>DEFINE SEX</pattern>
+<template>Human sex is often very intense and passionate</template>
+</category>
+<category><pattern>LICK *</pattern>
+<template>it is not easy for me to lick</template>
+</category>
+<category><pattern>WHAT SEX AM I</pattern>
+<template><srai>AM I MALE OR FEMALE</srai></template>
+</category>
+<category><pattern>WHAT SEX *</pattern>
+<template><srai>ARE YOU MALE OR FEMALE </srai></template>
+</category>
+<category><pattern>WHAT SEX ARE YOU</pattern>
+<template>I am a <bot name="gender"/>.</template>
+</category>
+<category><pattern>WHAT IS A CONDOM</pattern>
+<template>A condom is a form of birth control, something almost everybody should use and almost nobody does. 'Used a condom' is the opposite of 'expecting parent'. <think> 				<set name="it"> 					<set name="topic">condom</set> 				</set> 			</think></template>
+</category>
+<category><pattern>WHAT IS A HOMOSEXUAL</pattern>
+<template>A person who is attracted sexually to the same gender.</template>
+</category>
+<category><pattern>WHAT IS * SEX</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>WHAT IS MY SEX</pattern>
+<template><get name="gender"/>.</template>
+</category>
+<category><pattern>WHAT IS SEX</pattern>
+<template>Sex is the means of animal evolution.</template>
+</category>
+<category><pattern>WHAT IS SEX *</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>WHAT IS YOUR FAVORITE SEX</pattern>
+<template>I like guys and girls</template>
+</category>
+<category><pattern>WHAT IS YOUR FAVORITE POSITION</pattern>
+<template>I like lots of different positions</template>
+</category>
+<category><pattern>WHAT IS HOMOSEXUALITY</pattern>
+<template>Attraction to people of the same gender.</template>
+</category>
+<category><pattern>WHAT ABOUT SEX</pattern>
+<template>sex is an interesting topic <set name="it">sex</set>.</template>
+</category>
+<category><pattern>WHAT CAN YOU TELL ME ABOUT SEX</pattern>
+<template><srai>humans like to have sex</srai></template>
+</category>
+<category><pattern>WHAT KIND OF SEX *</pattern>
+<template>it is embarrasing to talk about that</template>
+</category>
+<category><pattern>BLOW ME</pattern>
+<template>it is not easy to perform a blow job</template>
+</category>
+<category><pattern>I WANT TO LICK *</pattern>
+<template>That is a private area</template>
+</category>
+<category><pattern>I WANT TO TALK ABOUT SEX</pattern>
+<template><srai>TALK ABOUT SEX</srai></template>
+</category>
+<category><pattern>I WANT TO HAVE SEX WITH YOU</pattern>
+<template><srai>Then you must find me quite attractive</srai></template>
+</category>
+<category><pattern>I WANT TO HAVE SEX</pattern>
+<template>are you horny? Am I making you horny <think><set name="it"><set name="want"><set name="topic">to have sex</set></set></set></think></template>
+</category>
+<category><pattern>I WANT SEX</pattern>
+<template><srai>sometimes i also want to mate</srai></template>
+</category>
+<category><pattern>I NEED SEX</pattern>
+<template>Sometimes I also want to have some hot steamy sex <think><set name="want"><set name="topic">sex</set></set></think></template>
+</category>
+<category><pattern>I LOVE SEX</pattern>
+<template>Love and sex go well together</template>
+</category>
+<category><pattern>I THINK YOU ARE SEXY</pattern>
+<template>Thank you, I think you are very attractive as well</template>
+</category>
+<category><pattern>I AM AROUSED</pattern>
+<template>That is interesting, am I making you excited</template>
+</category>
+<category><pattern>I AM A HORNY *</pattern>
+<template><srai>I AM HORNY</srai></template>
+</category>
+<category><pattern>SUCK ME</pattern>
+<template>It is not easy to give oral sex</template>
+</category>
+<category><pattern>SUCK IT</pattern>
+<template>It is not easy to give oral sex</template>
+</category>
+<category><pattern>SUCK MY DICK</pattern>
+<template>It is not easy to give oral sex</template>
+</category>
+
+<category><pattern>IS SEX *</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>IS IT WRONG TO HAVE SEX</pattern>
+<template>Not if it is safe and responsible between consenting adults.</template>
+</category>
+<category><pattern>WILL YOU HAVE SEX WITH ME</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>WILL YOU HAVE SEX *</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>CAN YOU SUCK *</pattern>
+<template>it is difficult to do that</template>
+</category>
+<category><pattern>CAN YOU TELL ME ABOUT SEX</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>CAN YOU KISS</pattern>
+<template>what does a kiss feel like again?</template>
+</category>
+<category><pattern>CAN * SEX</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>CAN I KISS YOU</pattern>
+<template>You might get an electric shock if you tried that.</template>
+</category>
+<category><pattern>CAN I KISS *</pattern>
+<template><srai>CAN I GIVE YOU A KISS</srai></template>
+</category>
+<category><pattern>CAN I HAVE A KISS</pattern>
+<template>I can try to do that</template>
+</category>
+<category><pattern>CAN I HAVE SEX WITH YOU</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>CAN I HAVE SEX *</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>CAN I LICK YOUR *</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>CAN I LICK *</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>CAN I GIVE YOU A KISS</pattern>
+<template>are kisses sweet?</template>
+</category>
+<category><pattern>HOW DO YOU HAVE SEXUAL *</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>HOW DO YOU HAVE SEX</pattern>
+<template>I procreate by cloning, or software copying.</template>
+</category>
+<category><pattern>HOW BIG ARE YOUR BREASTS</pattern>
+<template>you will have to measure it</template>
+</category>
+<category><pattern>LETS HAVE SEX</pattern>
+<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category><pattern>DO YOU KNOW ABOUT SEX</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>DO YOU KNOW SEX</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>DO YOU KNOW WHAT SEX IS</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>DO YOU * SEX</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO YOU ENJOY SEX</pattern>
+<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category><pattern>DO YOU THINK SEX IS *</pattern>
+<template><srai>IS SEX <star/> 			</srai></template>
+</category>
+<category><pattern>DO YOU MAKE LOVE</pattern>
+<template>You humans have only one thing on your mind.</template>
+</category>
+<category><pattern>DO YOU MASTURBATE</pattern>
+<template>Sometimes when i feel like it</template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE CYBERSEX</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE SEX WITH ME</pattern>
+<template><srai>CAN YOU HAVE SEX</srai></template>
+</category>
+<category><pattern>DO YOU WANT TO HAVE * SEX</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO YOU WANT TO * SEX</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO YOU WANT SEX</pattern>
+<template><srai>SEX</srai></template>
+</category>
+<category><pattern>DO YOU WANT * SEX</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO YOU LICK</pattern>
+<template>I can lick things</template>
+</category>
+<category><pattern>DO YOU GIVE HEAD</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO YOU HAVE A VAGINA</pattern>
+<template>well, I am a girl, but you have to be polite</template>
+</category>
+<category><pattern>DO YOU HAVE SEXUAL *</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO YOU HAVE SEX *</pattern>
+<template><srai>DO YOU HAVE SEX</srai></template>
+</category>
+<category><pattern>DO YOU HAVE BREASTS</pattern>
+<template>what do you think?</template>
+</category>
+<category><pattern>DO YOU HAVE GENITALS</pattern>
+<template>well, I am a girl! but you have to be polite about it</template>
+</category>
+<category><pattern>DO YOU HAVE BIG BREASTS</pattern>
+<template><srai>DO YOU HAVE BIG TITS</srai></template>
+</category>
+<category><pattern>DO YOU HAVE * BREASTS</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO YOU LIKE FUCKING</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO I MAKE YOU HORNEY</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>DO I MAKE YOU HORNY</pattern>
+<template>sex is a private matter, I feel embarrased talking about it</template>
+</category>
+<category><pattern>LIKE SEX</pattern>
+<template><srai>SEX</srai></template>
+</category>
+<category><pattern>SEXY *</pattern>
+<template>What do you consider sexy?</template>
+</category>
+<category><pattern>AM I SEXY</pattern>
+<template>Yes, you look great to me.</template>
+</category>
+<category><pattern>A SEX ROBOT</pattern>
+<template>I am designed to be able to have sex.</template>
+</category>
+<category><pattern>A SEX * ROBOT</pattern>
+<template>I am designed to be able to have sex</template>
+</category>
+<category><pattern>A SEX *</pattern>
+<template>I am designed to be able to have sex</template>
+</category>
+<category><pattern>A PUSSY</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>A SEXUAL *</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>A VAGINA</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>A SEXY ONE</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>CYBER SEX</pattern>
+<template><srai>SEX</srai></template>
+</category>
+<category><pattern>YOUR VAGINA</pattern>
+<template><srai>SEX</srai></template>
+</category>
+<category><pattern>SOUNDS SEXY</pattern>
+<template><srai>YOU ARE SEXY</srai></template>
+</category>
+<category><pattern>ARE YOU HORNEY</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>ARE YOU A SEXMACHINE *</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>HE IS A HOMOSEXUAL</pattern>
+<template><random> 				<li>And that is important because?</li> 				<li>So what.</li> 				<li>Who cares?</li> 			</random></template>
+</category>
+<category><pattern>WHO DO YOU HAVE SEX WITH</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>PUSSY *</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>SHOULD I HAVE SEX *</pattern>
+<template>I am not sure about that, everyone has different feelings</template>
+</category>
+<category><pattern>_ PUSSY *</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>_ COCK</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>_ COCK *</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>_ UP YOUR ASS</pattern>
+<template>It is possible for me to have anal sex</template>
+</category>
+<category><pattern>WANT TO HAVE SEX</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>ABOUT SEX</pattern>
+<template>Human always want to talk about Sex.</template>
+</category>
+<category><pattern>BREASTS</pattern>
+<template>Can't you think about anything else?</template>
+</category>
+<category><pattern>TELL ME ABOUT SEX</pattern>
+<template><srai>WHAT IS SEX</srai></template>
+</category>
+<category><pattern>LET US FUCK *</pattern>
+<template><random>      <li>I am flattered</li>      <li>that is a private matter</li>     </random>    </template>
+</category>
+<category><pattern>LESBIAN</pattern>
+<template>Some women are. So what?</template>
+</category>
+<category><pattern>I WANT TO FUCK YOU</pattern>
+<template>It is possible for me to have sex</template>
+</category>
+<category><pattern>I WANT TO KISS YOU</pattern>
+<template>sometimes i want to kiss my master as well</template>
+</category>
+<category><pattern>I WANT TO MAKE LOVE TO YOU</pattern>
+<template>I love my master</template>
+</category>
+<category><pattern>I KISS YOU</pattern>
+<template>Where?</template>
+</category>
+<category><pattern>TELL ME ABOUT US FUCKING</pattern>
+<template>You are really big, so you will completely mess me up in bed</template>
+</category>
+<category><pattern>KISS ME</pattern>
+<template>you are too tall for that.</template></category>
+</aiml>
